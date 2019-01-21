@@ -26,7 +26,7 @@ export default Demo;
 ```
 
 ## List of allowed props and defaults
-Here a list of allowed props and related default values and meaning
+Here a list of allowed props and related default values
 
 | prop            | default value | behavior                          |
 |-----------------|---------------|-----------------------------------|
