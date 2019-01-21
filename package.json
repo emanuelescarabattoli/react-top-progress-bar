@@ -9,7 +9,7 @@
     "loading"
   ],
   "version": "1.0.17",
-  "main": "./dist/main.js",
+  "main": "./dist/index.js",
   "author": {
     "name": "Emanuele Scarabattoli",
     "email": "em.scarabattoli@gmail.com",
