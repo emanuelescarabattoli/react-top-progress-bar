@@ -7,7 +7,7 @@ const styleContainer = {
   top: "0px",
   left: "0px",
   width: "100%",
-  height: "10px",
+  height: "9px",
   overflow: "hidden"
 };
 
