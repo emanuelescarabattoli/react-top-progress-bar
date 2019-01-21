@@ -7,7 +7,7 @@ const styleContainer = {
   top: "0px",
   left: "0px",
   width: "100%",
-  height: "4px",
+  height: "10px",
   overflow: "hidden"
 };
 
@@ -26,7 +26,7 @@ class ReactTopProgressBar extends Component {
           ...styleContent,
           width: `${this.props.value}%`,
           backgroundColor: this.props.color,
-          boxShadow: this.props.withShadow ? "0px 0px 5px 0px #00000044" : "none",
+          boxShadow: this.props.withShadow ? "0px 0px 5px 0px #00000055" : "none",
         }} />
       </div>
     );
