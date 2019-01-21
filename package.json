@@ -1,9 +1,25 @@
 {
   "name": "react-top-progress-bar",
-  "version": "1.0.9",
+  "description": "A progress bar displayed on top of page",
+  "keywords": [
+    "react",
+    "progress",
+    "bar",
+    "top",
+    "loading"
+  ],
+  "version": "1.0.11",
   "main": "./dist/main.js",
-  "author": "Emanuele Scarabattoli <em.scarabattoli@gmail.com>",
+  "author": {
+    "name": "Emanuele Scarabattoli",
+    "email": "em.scarabattoli@gmail.com",
+    "url": "https://github.com/emanuelescarabattoli"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emanuelescarabattoli/react-top-progress-bar.git"
+  },
   "scripts": {
     "build": "webpack --mode production"
   },
