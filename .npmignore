@@ -1,5 +1,8 @@
-src
-.babelrc
-webpack.config.js
-/node_modules
 .vscode
+/node_modules
+.babelrc
+.eslintrc.json
+.gitignore
+ReactTopProgressBar.js
+webpack.config.js
+yarn.lock

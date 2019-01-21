@@ -8,7 +8,7 @@
     "top",
     "loading"
   ],
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "./dist/main.js",
   "author": {
     "name": "Emanuele Scarabattoli",
