@@ -11,6 +11,10 @@ const styleContainer = {
   overflow: "hidden",
 };
 
+const styleBackground = {
+  height: "4px",
+};
+
 const styleContent = {
   height: "4px",
   transition: "width 1s ease-in-out"
@@ -32,16 +36,18 @@ class ReactTopProgressBar extends Component {
 
   render() {
     return (
-      <div style={{
-        ...styleContainer,
-        backgroundColor: this.props.backgroundColor
-      }}>
+      <div style={styleContainer}>
         <div style={{
-          ...styleContent,
-          width: `${this.state.value}%`,
-          backgroundColor: this.props.color,
-          boxShadow: this.props.withShadow ? "0px 0px 5px 0px #00000055" : "none",
-        }} />
+          ...styleBackground,
+          backgroundColor: this.props.backgroundColor
+        }}>
+          <div style={{
+            ...styleContent,
+            width: `${this.state.value}%`,
+            backgroundColor: this.props.color,
+            boxShadow: this.props.withShadow ? "0px 0px 5px 0px #00000055" : "none",
+          }} />
+        </div>
       </div>
     );
   }
