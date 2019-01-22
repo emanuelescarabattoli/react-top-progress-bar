@@ -8,14 +8,28 @@ const styleContainer = {
   left: "0px",
   width: "100%",
   height: "9px",
-  overflow: "hidden"
+  overflow: "hidden",
 };
 
 const styleContent = {
   height: "4px",
+  transition: "width 1s ease-in-out"
 };
 
 class ReactTopProgressBar extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      value: props.value
+    };
+  }
+
+  componentWillReceiveProps(props) {
+
+    requestAnimationFrame(() => this.setState({ value: props.value }));
+  }
+
   render() {
     return (
       <div style={{
@@ -24,7 +38,7 @@ class ReactTopProgressBar extends Component {
       }}>
         <div style={{
           ...styleContent,
-          width: `${this.props.value}%`,
+          width: `${this.state.value}%`,
           backgroundColor: this.props.color,
           boxShadow: this.props.withShadow ? "0px 0px 5px 0px #00000055" : "none",
         }} />
