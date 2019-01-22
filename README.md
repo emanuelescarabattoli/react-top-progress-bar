@@ -1,6 +1,9 @@
 # React Top Progress Bar
 Adds a progress bar displayed on top of your page. When value changes, an **animation** is performed.
 
+## Demo
+You can find a demo [here](https://emanuelescarabattoli.github.io/react-top-progress-bar/)
+
 ## Installation
 First you need to install the package as dependency by running the following command
 
