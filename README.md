@@ -1,5 +1,5 @@
-# React component to display a progress bar on top of page
-Adds a progress bar on top of your page. When value changes, an **animation** is performed.
+# React Top Progress Bar
+Adds a progress bar displayed on top of your page. When value changes, an **animation** is performed.
 
 ## Installation
 First you need to install the package as dependency by running the following command
