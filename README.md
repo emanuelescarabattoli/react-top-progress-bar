@@ -1,5 +1,5 @@
 # React Top Progress Bar
-Adds a progress bar displayed on top of your page. When value changes, an **animation** is performed.
+Adds a progress bar displayed on top of your page. When value changes, an **animation** is performed. When value is less or equal to 0 or greater than or equal to 100 the progress bar will **disappear automatically**
 
 ## Demo
 You can find a demo [here](https://emanuelescarabattoli.github.io/react-top-progress-bar/)

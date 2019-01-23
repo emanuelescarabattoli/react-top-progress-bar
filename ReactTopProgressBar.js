@@ -36,7 +36,10 @@ class ReactTopProgressBar extends Component {
 
   render() {
     return (
-      <div style={styleContainer}>
+      <div style={{
+        ...styleContainer,
+        display: this.state.value <= 0 || this.state.value >= 100 ? "none" : "block"
+      }}>
         <div style={{
           ...styleBackground,
           backgroundColor: this.props.backgroundColor
