@@ -38,3 +38,4 @@ Here a list of allowed props and related default values
 | color           | #CC0000       | Color of progress bar             |
 | backgroundColor | transparent   | Background color of progress bar  |
 | withShadow      | false         | The progress will have a shadow   |
+| striped         | false         | Striped animated scrollbar        |

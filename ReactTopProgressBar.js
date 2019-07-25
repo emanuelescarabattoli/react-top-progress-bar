@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+import style from "./style.scss";
 
 const styleContainer = {
   position: "fixed",
@@ -16,7 +17,7 @@ const styleBackground = {
 };
 
 const styleContent = {
-  height: "4px",
+  height: "40px",
   transition: "width 1s ease-in-out"
 };
 
@@ -44,7 +45,7 @@ class ReactTopProgressBar extends Component {
           ...styleBackground,
           backgroundColor: this.props.backgroundColor
         }}>
-          <div style={{
+          <div className={this.props.striped ? style.striped : undefined} style={{
             ...styleContent,
             width: `${this.state.value}%`,
             backgroundColor: this.props.color,
@@ -60,14 +61,16 @@ ReactTopProgressBar.propTypes = {
   value: PropTypes.number,
   color: PropTypes.string,
   withShadow: PropTypes.bool,
-  backgroundColor: PropTypes.string
+  backgroundColor: PropTypes.string,
+  striped: PropTypes.bool
 };
 
 ReactTopProgressBar.defaultProps = {
   value: 0,
   color: "#CC0000",
   withShadow: false,
-  backgroundColor: "transparent"
+  backgroundColor: "transparent",
+  striped: false
 };
 
 export default ReactTopProgressBar;
