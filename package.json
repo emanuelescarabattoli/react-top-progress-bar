@@ -8,7 +8,7 @@
     "top",
     "loading"
   ],
-  "version": "1.0.28",
+  "version": "1.0.29",
   "main": "./dist/index.js",
   "author": {
     "name": "Emanuele Scarabattoli",
@@ -27,18 +27,18 @@
     "react": "^16.7.0"
   },
   "dependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "webpack": "^4.29.0"
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "webpack": "^4.37.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "eslint": "^5.12.1",
-    "eslint-plugin-react": "^7.12.4",
-    "webpack-cli": "^3.2.1"
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "webpack-cli": "^3.3.6"
   }
 }
