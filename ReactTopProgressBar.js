@@ -13,11 +13,11 @@ const styleContainer = {
 };
 
 const styleBackground = {
-  height: "4px",
+  height: "5px",
 };
 
 const styleContent = {
-  height: "40px",
+  height: "5px",
   transition: "width 1s ease-in-out"
 };
 
